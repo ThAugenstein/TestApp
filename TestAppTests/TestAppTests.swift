@@ -26,6 +26,12 @@ class TestAppTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
+    func testModel() {
+        
+    XCTAssert(model() > 100, "model() returned value < 100!")
+        
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
