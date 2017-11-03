@@ -29,7 +29,7 @@ class TestAppTests: XCTestCase {
     func testModel() {
         
         XCTAssert(model() > 100, "model() returned value < 100!")
-        XCTAssert(model() < 100, "model() returned value > 100!")
+        XCTAssert(model() < 1000, "model() returned value > 1000!")
         
     }
     
