@@ -35,11 +35,19 @@
                                     <action selector="WertButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vup-2E-OKh"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Würfel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AgQ-xb-REP">
+                                <rect key="frame" x="151" y="105.5" width="73.5" height="31.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="1" green="0.1311034104000065" blue="0.097295547422132089" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="fZo-Q0-WwG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4NS-ex-z20"/>
                             <constraint firstItem="fZo-Q0-WwG" firstAttribute="top" secondItem="PKg-YX-4Sp" secondAttribute="bottom" constant="102" id="FDW-TL-lAO"/>
+                            <constraint firstItem="PKg-YX-4Sp" firstAttribute="top" secondItem="AgQ-xb-REP" secondAttribute="bottom" constant="186.5" id="RIb-jn-TZ7"/>
+                            <constraint firstItem="AgQ-xb-REP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TBp-tN-bmu"/>
                             <constraint firstItem="oDm-rb-XEF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="inW-Cb-FK6"/>
                             <constraint firstItem="oDm-rb-XEF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tpk-Ow-y8B"/>
                         </constraints>
