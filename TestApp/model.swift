@@ -8,10 +8,8 @@
 
 import Foundation
 
-private var wert = 100
-
 func model() -> Int {
 
-    wert = wert + 1
-    return wert
+    let diceRoll = Int(arc4random_uniform(6))+1
+    return diceRoll
 }

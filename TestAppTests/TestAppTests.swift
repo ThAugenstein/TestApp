@@ -28,9 +28,12 @@ class TestAppTests: XCTestCase {
     
     func testModel() {
         
-        XCTAssert(model() > 100, "model() returned value < 100!")
-        XCTAssert(model() < 1000, "model() returned value > 1000!")
+        let iterations = 100
         
+        for _ in 1...iterations {
+            XCTAssert(model() > 0, "model() returned value < 1!")
+            XCTAssert(model() < 7, "model() returned value > 6!")
+        }
     }
     
     func testPerformanceExample() {
