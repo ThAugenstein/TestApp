@@ -11,5 +11,9 @@ import Foundation
 func model() -> Int {
 
     let diceRoll = Int(arc4random_uniform(6))+1
+    
+    if diceRoll < 3 {
+        return 6
+    }
     return diceRoll
 }
